@@ -21,7 +21,9 @@ body {
     margin: auto;
 }
 
-
+hr {
+    margin: 2rem 0rem;
+}
 
 
 .link {
@@ -41,8 +43,14 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+.ul-remove-bullet {
+    list-style: none;
+}
 
-
+.ul-inline-item {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
 
 body {
     color:teal;
