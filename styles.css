@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
+
+:root {
+    --primary-color: #14B8A6;
+}
+
+
+
 body {
     font-family: 'Quicksand', sans-serif;
 }
@@ -13,6 +20,29 @@ body {
     max-width: 300px;
     margin: auto;
 }
+
+
+
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+
 
 body {
     color:teal;
