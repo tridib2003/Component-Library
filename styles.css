@@ -3,8 +3,8 @@
 /** root selector **/
 
 :root {
-  --primary-color: #03dac6;
-  --primary-variant: #018786;
+  --primary-color: #018786;
+  --primary-variant: #03dac6;
   --surface-color1: #121212;
   --surface-color2: #ffffff;
   --surface-color3: #f3f4f6;
@@ -51,7 +51,7 @@ hr {
 }
 
 .container-center {
-  max-width: 600px;
+  max-width: 300px;
   margin: auto;
 }
 
