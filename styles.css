@@ -1,31 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
+/** root selector **/
+
 :root {
     --primary-color: #03DAC6;
+    --primary-variant: #018786; 
+    --surface-color1: #121212;
+    --surface-color2: #FFFFFF;
+    --error-color: #B00020;
+    --error-light: #CF6679;
+    padding: 2rem 3rem;
 }
+
+/** body **/
 
 body {
-    color: #121212;
+    color: var(--surface-color1);
     font-family: 'Quicksand', sans-serif;
-    background-color: #ffffff;
+    background-color: var(--surface-color2);
 }
 
+/** headings **/
+
 h1 {
-    color: #03DAC6;
+    color: var(--primary-color);
 }
 
 h2 {
-    color: #03DAC6;
+    color: var(--primary-color);
 }
+
+/** sub-headings **/
+
+.sub-heading {
+    color: var(--primary-color);
+}
+
+/** horizontal line **/
 
 hr {
     margin: 2rem 0rem;
 }
 
-.sub-heading {
-    color: #03DAC6;
-}
-
+/** containers **/
 
 .container {
     padding-left: 1rem;
@@ -37,6 +54,7 @@ hr {
     margin: auto;
 }
 
+/** links **/
 
 .link {
     text-decoration: none;
@@ -46,7 +64,7 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 2rem;
-    color: white;
+    color: var(--surface-color2);
 }
 
 .link-secondary {
@@ -55,6 +73,7 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
+/** lists **/
 
 .ul-remove-bullet {
     list-style: none;
@@ -65,10 +84,11 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+/** navigation **/
 
 .navigation {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--surface-color2);
     padding: 0.5rem;
     border-bottom-right-radius: 2rem;
 }
@@ -83,9 +103,30 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: var(--surface-color2);
 }
 
 .navigation .current-select {
     font-weight: bold;
+}
+
+/** header **/
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-image {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-focus {
+    color: var(--primary-color);
 }
